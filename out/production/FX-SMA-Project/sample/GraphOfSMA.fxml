@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GraphOfSMA">
+   <children>
+      <LineChart fx:id="MainGraph" layoutX="-1.0" prefHeight="353.0" prefWidth="600.0" title="Base and SMA">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="loadButton" layoutX="225.0" layoutY="340.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="147.0" text="Загрузить" />
+   </children>
+</AnchorPane>
